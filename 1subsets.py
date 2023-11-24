@@ -1,4 +1,5 @@
-given_set = [[], [1, 2], 1, 2, 3]
+given_set = input("Enter the set: ")
+given_set = eval(given_set)
 
 
 def power_set(nums):
